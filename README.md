@@ -12,7 +12,7 @@
 
 3.
 ```
- python3 main.py
+ python3 dong.py
 ```
 
 4. 成功監票會顯示
