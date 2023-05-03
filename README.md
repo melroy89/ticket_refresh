@@ -7,20 +7,26 @@
 ```
 2.
 ```
- pip install -r requirements.txt
+ pip3 install -r requirements.txt
 ```
 
 3.
 ```
- python main.py
+ python3 main.py
 ```
 
-4. 終端機會詢問要監聽的網址，輸入完按enter
-再來會詢問監聽的票券範圍，較大的場館都會分不同票種 ，拓元官網HTML會使用id=group_numbe來編號，請使用瀏覽器進入開發者設定查詢，若只想監聽單一票種，監聽範圍請輸入一樣的數字就好
-ex:
+4. 成功監票會顯示
+
 ```
-HTML
-<ul id="group_0" class="area-list" style=""><li><span style="background: #005fbf;">&nbsp;</span><font color="#AAAAAA">特A1區4200 Sold out</font></li><li><span style="background: #005fbf;">&nbsp;</span><font color="#AAAAAA">特A2區4200 Sold out</font></li><li><span style="background: #56aaff;">&nbsp;</span><font color="#AAAAAA">特B區3800 Sold out</font></li></ul>
+The current time is 15:27:46
+2023/05/24 (Wed.)  20:00,Legacy Taipei,No tickets available
+2023/05/26 (Fri.)  20:00,Legacy Taipei,No tickets available
+2023/05/28 (Sun.)  20:00,Legacy Taipei,No tickets available
+2023/05/31 (Wed.)  20:00,Legacy Taichung,No tickets available
+2023/06/02 (Fri.)  20:00,Legacy Taichung,No tickets available
+2023/06/04 (Sun.)  20:00,Legacy Taichung,No tickets available
+2023/06/07 (Wed.)  20:00,LIVE WAREHOUSE,No tickets available
+2023/06/09 (Fri.)  20:00,LIVE WAREHOUSE,No tickets available
+2023/06/11 (Sun.)  20:00,LIVE WAREHOUSE,No tickets available
 ```
-這時候範圍都輸入0就好了。
 
